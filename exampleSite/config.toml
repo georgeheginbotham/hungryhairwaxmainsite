@@ -100,7 +100,7 @@ location = "Dhaka, Bangladedsh"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Paypal Credentials
-snipcartApiKey = "AUe4RuRUvx5w0Vla9Ma6bfLnLLsG5tCzheUopsvoQdVsLoIdH6orsbKw8BgjaL5igWME_JTSWDwxgA6O"
+snipcartApiKey = "EDFYj0bqEMTCS5ZPlMRiUakXPfYORIpgCupF709b-kZBuuCUF9pNJip0XhFroWDvF6pcynu1qau6QzsG"
 currencySymbol = "R"
 
   # Preloader
