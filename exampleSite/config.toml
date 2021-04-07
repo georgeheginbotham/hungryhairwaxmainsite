@@ -99,9 +99,9 @@ email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
-# Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+# Paypal Credentials
+paypalApiKey = "EDFYj0bqEMTCS5ZPlMRiUakXPfYORIpgCupF709b-kZBuuCUF9pNJip0XhFroWDvF6pcynu1qau6QzsG"
+currencySymbol = "R"
 
   # Preloader
   [params.preloader]
