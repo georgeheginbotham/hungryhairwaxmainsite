@@ -27,7 +27,8 @@ disqusShortname = ""
   link = "plugins/slick/slick.min.js"
   [[params.plugins.js]]
   link = "plugins/google-map/gmap.js"
-
+  [[params.plugins.js]]
+  link = "plugins/gatsby-plugin-facebook-pixel-master/index.js"
 
 ############################## navigation ###############################
 [menu]
@@ -95,6 +96,7 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 facebookPixel = "336337561243775"
+pixelId: "336337561243775"
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
