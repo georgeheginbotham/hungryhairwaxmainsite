@@ -92,8 +92,8 @@ video:
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "Subscribe To Our Newsletter"
+  content : "Take hair health to the next level! Subscribe to our newsletter for weekly hair healthy recipes"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
@@ -103,14 +103,6 @@ cta:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "About hungryhairwax"
+  content : "I created hungryhairwax because I couldn't find natural hair wax in South Africa. <br>I experimented with a few online recipes, then formulated my own. I'm happy to say this product is perfect, as perfect as a natural hair wax can get! Its main ingredient is coconut oil. According to the International Journal of Life Sciences Research, "Coconut oil is one of the best natural nutrients for hair." I balance the oiliness factor with kaolin clay, emulsify with raw beeswax, and scent the product with your preferred citrus essential oil scent. <br>It gives the hair an all-day natural hold & subtle shine. Plus, you get all the goodness from the antioxidants and nutrients found in the raw natural ingredients. "
   image : "images/about.png"
-
-
-
-
-
-
