@@ -12,14 +12,14 @@ images:
 ---
 Style hair naturally with our 100% natural grapefruit scented hair wax
 
-Our product provides a natural hold & subtle shine. Ideal for styling short to medium hair lengths and conditioning long hair
+Our product provides a natural hold & subtle shine. Ideal for dry or damaged hair.
 
 Ingredients:
 
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
-* Organic Lime Essential Oil
+* Organic Grapefruit Essential Oil
 
 Benefits:
 
