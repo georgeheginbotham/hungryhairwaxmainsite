@@ -91,7 +91,7 @@ mapMarker = "images/marker.png"
 email = "hungryhairwax@gmail.com"
 location = "Cape Town, South Africa"
 # copyright
-copyright = "| Copyright &copy; 2021 George Anthony Heginbotham All Rights Reserved |"
+copyright = "Copyright &copy; | 2021 George Anthony Heginbotham | All Rights Reserved"
 # Snipcart Credentials
 snipcartApiKey = "EDFYj0bqEMTCS5ZPlMRiUakXPfYORIpgCupF709b-kZBuuCUF9pNJip0XhFroWDvF6pcynu1qau6QzsG"
 currencySymbol = "R"
