@@ -104,5 +104,7 @@ cta:
 about:
   enable : true
   title : "About Our Product"
-  content : "I created hungryhairwax because I couldn't find natural hair wax in South Africa. I experimented with a few online recipes, then formulated my own. I'm happy to say this product is perfect, as perfect as a natural hair wax can get! Its main ingredient is coconut oil. According to the International Journal of Life Sciences Research, "Coconut oil is one of the best natural nutrients for hair." I balance the oiliness factor with kaolin clay, emulsify with raw beeswax, and scent the product with your preferred citrus essential oil scent. It gives the hair an all-day natural hold & subtle shine. Plus, you get all the goodness from the antioxidants and nutrients found in the raw natural ingredients"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren,"
   image : "images/about.png"
