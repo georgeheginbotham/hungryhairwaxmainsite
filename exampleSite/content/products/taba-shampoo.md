@@ -11,6 +11,7 @@ shortDescription: 'Style hair naturally with our 100% natural grapefruit scented
   & softens damaged strands  Balances the hairs natural PH  Improves hair strength
   & elasticity  Moisturizes hair  Doesn''t sweat-out/ lose hold.'
 productID: "9"
-images: []
+images:
+- image: "/uploads/grapefruit.jpg"
 
 ---
