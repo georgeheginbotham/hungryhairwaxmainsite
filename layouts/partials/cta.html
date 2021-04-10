@@ -7,6 +7,7 @@
       <div class="col-lg-8 col-md-7">
         <h2 class="text-white">{{ .title | markdownify }}</h2>
         <p class="text-white">{{ .content | markdownify }}</p>
+        <input type="text" placeholder="Email address" name="mail" required>
         {{ with .button }}
         <a href="{{ .link | absURL }}" class="btn btn-light">{{ .label }}</a>
         {{ end }}
