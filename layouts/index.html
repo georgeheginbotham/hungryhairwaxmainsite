@@ -1,46 +1,4 @@
 {{ define "main" }}
-<!-- banner -->
-{{ if site.Data.homepage.banner.enable }}
-{{ with site.Data.homepage.banner }}
-<section class="section-sm">
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-5 col-md-6 order-2 order-md-1">
-        <h1>{{ .title | markdownify }}</h1>
-        <p>{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-
-        {{ if .video.enable }}
-        {{ with .video }}
-        <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal"
-          class="text-color video-modal"><i
-            class="ti-control-play bg-gradient hover-shadow btn-play mr-2"></i><span>Watch Video</span></a>
-        {{ end }}
-        <!-- Modal -->
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content border-0 rounded-0">
-              <iframe width="560" height="315" src="" id="video" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-      <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-        <img src="{{ .image | absURL }}" class="img-fluid" alt="hungryhairwax website cover" >
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /banner -->
 
 <!-- products -->
 {{ if site.Data.homepage.products.enable }}
@@ -84,7 +42,37 @@
 {{ end }}
 <!-- /products -->
 
-<!-- testimonial -->
+<!-- ingredients -->
+{{ if site.Data.homepage.material.enable }}
+{{ with site.Data.homepage.material }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .subtitle | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .materialItem }}
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card border-0 text-center">
+          <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
+          <div class="card-body">
+            <h4>{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /ingredients -->
+
+<!-- reviews -->
 {{ if site.Data.homepage.testimonial.enable }}
 {{ with site.Data.homepage.testimonial }}
 <section class="section">
@@ -119,63 +107,9 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /testimonial -->
+<!-- /reviews -->
 
-<!-- about -->
-{{ if site.Data.homepage.about.enable }}
-{{ with site.Data.homepage.about }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-      </div>
-      <div class="col-md-6 col-lg-5">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /about -->
-
-{{ if site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
-
-<!-- material -->
-{{ if site.Data.homepage.material.enable }}
-{{ with site.Data.homepage.material }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mx-auto text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .subtitle | markdownify }}</p>
-      </div>
-    </div>
-    <div class="row">
-      {{ range .materialItem }}
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card border-0 text-center">
-          <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
-          <div class="card-body">
-            <h4>{{ .title | markdownify }}</h4>
-            <p>{{ .content | markdownify }}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /material -->
-
-<!-- advantage -->
+<!-- advantages -->
 {{ if site.Data.homepage.advantage.enable }}
 {{ with site.Data.homepage.advantage }}
 <section class="section pb-0">
@@ -198,9 +132,29 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /advantage -->
+<!-- /advantages -->
 
-<!-- promo video -->
+<!-- about -->
+{{ if site.Data.homepage.about.enable }}
+{{ with site.Data.homepage.about }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-lg-5 col-md-6">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
+
+<!-- How To Use -->
 {{ if site.Data.homepage.video.enable }}
 {{ with site.Data.homepage.video }}
 <section class="section pb-0">
@@ -232,7 +186,7 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /promo video -->
+<!-- /How To Use -->
 
 
 {{ if site.Data.homepage.cta.enable }}
