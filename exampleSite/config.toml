@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://hungryhairwax.co.za/"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "hungryhairwax"
 theme = "hargo"
 summaryLength = "20"
 paginate = 10
@@ -25,8 +25,6 @@ disqusShortname = ""
   link = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
   link = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 [menu]
@@ -68,8 +66,8 @@ disqusShortname = ""
   weight = 3
 
   [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions"
+  name = "Refund Policy"
+  URL = "refund-policy"
   weight = 4
 
   [[menu.footer]]
@@ -85,21 +83,16 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
-# google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+author = "George Anthony Heginbotham"
+
 mapMarker = "images/marker.png"
-# Google Analitycs
-googleAnalitycsID = "G-NFQY8W4ZEF" # Your ID
+
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+email = "hungryhairwax@gmail.com"
+location = "Cape Town, South Africa"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
-# Paypal Credentials
+copyright = "| Copyright &copy; 2021 George Anthony Heginbotham All Rights Reserved |"
+# Snipcart Credentials
 snipcartApiKey = "EDFYj0bqEMTCS5ZPlMRiUakXPfYORIpgCupF709b-kZBuuCUF9pNJip0XhFroWDvF6pcynu1qau6QzsG"
 currencySymbol = "R"
 
