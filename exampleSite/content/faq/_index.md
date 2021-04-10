@@ -6,4 +6,4 @@ description: hungryhairwax faq
 ---
 ### Frequently Asked Questions
 
-Below FAQ are popular questions our clients have <br>, if you have other questions, please send them to hungryhairwax@gmail.com
+Below are popular questions our clients have <br>, if you have other questions, please send them to hungryhairwax@gmail.com
