@@ -42,6 +42,85 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- products -->
+{{ if site.Data.homepage.products.enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        {{ with site.Data.homepage.products }}
+        <h2>{{ .title | markdownify }}</h2>
+        {{ end }}
+      </div>
+      {{ range first 6 (where site.RegularPages "Type" "products") }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card border-0 text-center">
+          <a href="{{ .Permalink }}">
+            {{ range first 1 .Params.Images }}
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+            {{ end }}
+          </a>
+          <div class="card-body">
+            <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
+            <p>{{ .Params.Description }}</p>
+            <div class="mb-4">
+              {{ if .Params.PriceBefore }}
+              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
+              {{ end }}
+              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+            </div>
+            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
+              data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /products -->
+
+<!-- testimonial -->
+{{ if site.Data.homepage.testimonial.enable }}
+{{ with site.Data.homepage.testimonial }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row testimonial-slider">
+      {{ range .testimonialItem }}
+      <div class="col-4">
+        <div class="card border-primary text-center">
+          <div class="card-body">
+            <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
+            <p class="quoted">{{ .content | markdownify }}</p>
+            <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
+            <small>{{ .designation | markdownify }}</small>
+            <ul class="list-inline rating {{ .rating | lower }} mt-3">
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonial -->
+
 <!-- about -->
 {{ if site.Data.homepage.about.enable }}
 {{ with site.Data.homepage.about }}
@@ -155,84 +234,6 @@
 {{ end }}
 <!-- /promo video -->
 
-<!-- products -->
-{{ if site.Data.homepage.products.enable }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        {{ with site.Data.homepage.products }}
-        <h2>{{ .title | markdownify }}</h2>
-        {{ end }}
-      </div>
-      {{ range first 6 (where site.RegularPages "Type" "products") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card border-0 text-center">
-          <a href="{{ .Permalink }}">
-            {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
-            {{ end }}
-          </a>
-          <div class="card-body">
-            <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
-            <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
-              {{ if .Params.PriceBefore }}
-              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
-              {{ end }}
-              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
-            </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
-              data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
-            </button>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /products -->
-
-<!-- testimonial -->
-{{ if site.Data.homepage.testimonial.enable }}
-{{ with site.Data.homepage.testimonial }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2>{{ .title | markdownify }}</h2>
-      </div>
-    </div>
-    <div class="row testimonial-slider">
-      {{ range .testimonialItem }}
-      <div class="col-4">
-        <div class="card border-primary text-center">
-          <div class="card-body">
-            <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
-            <p class="quoted">{{ .content | markdownify }}</p>
-            <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
-            <small>{{ .designation | markdownify }}</small>
-            <ul class="list-inline rating {{ .rating | lower }} mt-3">
-              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
-              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
-              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
-              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
-              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /testimonial -->
 
 {{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
