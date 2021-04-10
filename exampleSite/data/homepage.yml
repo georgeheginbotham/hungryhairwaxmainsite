@@ -93,7 +93,7 @@ video:
 cta:
   enable : true
   title : "Subscribe To Our Newsletter"
-  content : "Take hair health to the next level! Subscribe to our newsletter for weekly hair healthy recipes"
+  content : "Subscribe to our newsletter for weekly hair healthy recipes!"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
