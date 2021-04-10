@@ -13,14 +13,14 @@ images:
 - image: "/uploads/grapefruit.jpg"
 
 ---
-Ingredients:
+**Ingredients:**
 
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
 * Organic Lime Essential Oil
 
-Benefits:
+**Benefits:**
 
 1. Alcohol & chemical-free
 2. Promotes hair growth
