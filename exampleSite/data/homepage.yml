@@ -5,7 +5,10 @@ banner:
   content : "Our natural hair wax contains nourishing antioxidants specifically selected for hair health"
   image : "images/banner.png"
   
-  # button button: enable : true label : "All Products" link : "products"
+  # button
+  button: enable : true
+  label : "All Products"
+  link : "products"
   
   # demo video
   video:
