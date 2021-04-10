@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Get The Hair You Deserve"
-  content : "Our natural hair wax contains antioxidants specifically selected for hair health"
+  content : "Our natural hair wax contains antioxidants specifically selected to improve hair health"
   image : "images/banner.png"
 
   # demo video video: enable : true videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
