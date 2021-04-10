@@ -44,11 +44,6 @@ disqusShortname = ""
   URL = "faq"
   weight = 3
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 4
-
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
@@ -82,11 +77,8 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "hungryhairwax home"
 author = "George Anthony Heginbotham"
-
-mapMarker = "images/marker.png"
-
 # Contact Information
 email = "hungryhairwax@gmail.com"
 location = "Cape Town, South Africa"
