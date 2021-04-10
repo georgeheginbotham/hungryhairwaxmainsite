@@ -1,5 +1,5 @@
 ---
-title: Grapefruit
+title: Infused with Grapefruit Essential Oil
 date: 2019-10-17T11:22:16.000+06:00
 description: 'Get rid of dandruff '
 price: '180.00'
