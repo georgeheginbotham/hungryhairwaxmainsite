@@ -1,8 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Hair Wax For Your Scalp"
-  content : "Our natural hair wax contains nourishing antioxidants specifically selected for hair health"
+  title : "Get The Hair You Deserve"
+  content : "Our natural hair wax contains antioxidants specifically selected for hair health"
   image : "images/banner.png"
 
   # demo video
