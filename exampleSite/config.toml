@@ -65,12 +65,6 @@ disqusShortname = ""
   URL = "refund-policy"
   weight = 4
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
-
-
 #################### default parameters ################################
 
 [params]
