@@ -1,14 +1,15 @@
 ---
-title: Organic Hair Wax Infused with Grapefruit Essential Oil
+title: Grapefruit Hair Wax
 date: 2019-10-17T11:22:16.000+06:00
 description: 'Eliminate dandruff '
 price: '180.00'
-priceBefore: ''
+priceBefore: "200"
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
 productID: "9"
 images:
+- image: "/uploads/orange.jpg"
 - image: "/uploads/grapefruit.jpg"
 
 ---
