@@ -4,14 +4,27 @@ date: 2019-10-17T11:22:16.000+06:00
 description: 'Eliminate dandruff '
 price: '180.00'
 priceBefore: ''
-shortDescription: 'Style hair naturally with our 100% natural grapefruit scented hair
-  wax  Our product provides a natural hold & subtle shine. Ideal for dry or damaged
-  hair.  Ingredients:  Raw Beeswax  Organic Coconut Oil  Natural Kaolin Clay  Organic
-  Grapefruit Essential Oil  Benefits:  Alcohol & chemical-free  Promotes hair growth  Repairs
-  & softens damaged strands  Balances the hairs natural PH  Improves hair strength
-  & elasticity  Moisturizes hair  Doesn''t sweat-out/ lose hold.'
+shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
+  wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
+  hair.
 productID: "9"
 images:
 - image: "/uploads/grapefruit.jpg"
 
 ---
+Ingredients:
+
+* Raw Beeswax
+* Organic Coconut Oil
+* Natural Kaolin Clay
+* Organic Lime Essential Oil
+
+Benefits:
+
+1. Alcohol & chemical-free
+2. Promotes hair growth
+3. Repairs & softens damaged strands
+4. Balances hairs natural PH
+5. Improves hair strength & elasticity
+6. Naturally moisturizes hair & scalp
+7. Doesn't sweat-out/ lose hold.
