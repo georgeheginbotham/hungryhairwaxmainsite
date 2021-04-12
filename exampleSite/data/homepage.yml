@@ -94,17 +94,6 @@ video:
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://youtu.be/S8P8gn51zew"
 
-###################### Call to action ########################
-cta:
-  enable : true
-  title : "Subscribe To Our Newsletter"
-  content : "Subscribe to our newsletter for weekly hair healthy recipes!"
-  image : "images/cta.png"
-  overlayImage : "images/cta-overlay.png"
-  button:
-    label : "All Products"
-    link : "products"
-
 ########################## About ##############################
 about:
   enable : true
