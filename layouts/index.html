@@ -15,7 +15,7 @@
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="width:100px;height:150;>
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="width:100px;height:150;">
             {{ end }}
           </a>
           <div class="card-body">
