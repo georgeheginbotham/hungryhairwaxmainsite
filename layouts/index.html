@@ -27,7 +27,7 @@
               {{ end }}
               <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
             </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-primary pt-0" data-item-id="{{ .Params.ProductID }}"
+            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
               {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
               Add to cart
@@ -45,7 +45,7 @@
 <!-- ingredients -->
 {{ if site.Data.homepage.material.enable }}
 {{ with site.Data.homepage.material }}
-<section class="section pt-0">
+<section class="sectioningredients">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mx-auto text-center">
