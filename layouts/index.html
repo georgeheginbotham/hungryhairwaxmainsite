@@ -11,7 +11,7 @@
         {{ end }}
       </div>
       {{ range first 6 (where site.RegularPages "Type" "products") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="col-lg-4 col-sm-6 mb-2">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
@@ -21,7 +21,7 @@
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
+            <div class="mb-2">
               {{ if .Params.PriceBefore }}
               <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
               {{ end }}
