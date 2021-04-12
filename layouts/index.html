@@ -2,7 +2,7 @@
 
 <!-- products -->
 {{ if site.Data.homepage.products.enable }}
-<section class="section" style="width:150px;height:250px;">
+<section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
@@ -11,17 +11,17 @@
         {{ end }}
       </div>
       {{ range first 6 (where site.RegularPages "Type" "products") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card border-0 text-center">
+      <div class="col-lg-4 col-sm-6 mb-4"  style="width:150px;height:250px;">
+        <div class="card border-0 text-center"  style="width:150px;height:250px;">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top"  style="width:150px;height:250px;">
             {{ end }}
           </a>
-          <div class="card-body">
+          <div class="card-body"  style="width:150px;height:250px;">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
+            <div class="mb-4"  style="width:150px;height:250px;">
               {{ if .Params.PriceBefore }}
               <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
               {{ end }}
