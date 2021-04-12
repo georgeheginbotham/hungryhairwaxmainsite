@@ -21,7 +21,7 @@
           <div class="card-body" style="width:150px;height:250px;">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-            <div class="mb-4" style="width:150px;height:250px;">
+            <div class="mb-4">
               {{ if .Params.PriceBefore }}
               <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
               {{ end }}
@@ -29,7 +29,7 @@
             </div>
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}" style="width:150px;height:250px;">
+              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
               Add to cart
             </button>
           </div>
