@@ -49,13 +49,18 @@ a:hover {
 }
 
 .section {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   &-sm {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+.sectioningredients {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bg-cover {
