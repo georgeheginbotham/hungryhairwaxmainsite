@@ -9,8 +9,7 @@ shortDescription: Style hair naturally with our 100% natural grapefruit scented 
   hair.
 productID: "9"
 images:
-- image: "/uploads/orange.jpg"
-- image: "/uploads/grapefruit.jpg"
+- image: "/uploads/grapefruit-1.jpg"
 
 ---
 **Ingredients:**
