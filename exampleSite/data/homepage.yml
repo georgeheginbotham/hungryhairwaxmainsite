@@ -8,7 +8,7 @@ products:
 material:
   enable : true
   title : "Our Formula"
-  subtitle : "Our hair wax is made with 100% natural ingredients"
+  subtitle : "Our hair wax is made with 100% natural ingredients<br>"
   materialItem:
     # material item loop
     - title : "Coconut Oil"
