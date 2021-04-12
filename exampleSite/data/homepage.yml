@@ -86,14 +86,7 @@ advantage:
     - listItem : "Moisturizes the hair & scalp"
     - listItem : "Doesn't sweat-out/ lose hold"
     - listItem : "softens hair"
- 
-    ######################## How To Use ##########################
-video:
-  enable : true
-  title : "How To Use"
-  content : "Only use a pea-sized amount to style short to medium hair lengths"
-  videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://youtu.be/S8P8gn51zew"
+
 
 ########################## About ##############################
 about:
@@ -105,3 +98,11 @@ about:
           It gives the hair an all-day natural hold and subtle shine. Plus, you get all the antioxidants and minerals from the raw natural ingredients."
 
   image : "images/about.jpg"
+  
+      ######################## How To Use ##########################
+video:
+  enable : true
+  title : "How To Use"
+  content : "Only use a pea-sized amount to style short to medium hair lengths"
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/S8P8gn51zew"
