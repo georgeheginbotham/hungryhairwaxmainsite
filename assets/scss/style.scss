@@ -23,6 +23,9 @@ VERSION:	Versoin Number
 
 @import 'templates/homepage';
 
+section#products {padding-bottom:50px;}
+section#materials {padding-top:50px;}
+
 /* Style the form element with a border around it */
 form {
   border: 4px solid #f1f1f1;
