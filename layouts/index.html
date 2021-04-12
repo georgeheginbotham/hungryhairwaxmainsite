@@ -11,8 +11,8 @@
         {{ end }}
       </div>
       {{ range first 6 (where site.RegularPages "Type" "products") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card border-0 text-center">
+      <div class="col-lg-4 col-sm-6 mb-4" style="width:100px;height:150;">
+        <div class="card border-0 text-center" style="width:100px;height:150;">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
             <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="width:100px;height:150;">
