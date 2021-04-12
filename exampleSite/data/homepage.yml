@@ -7,47 +7,47 @@ products:
   ######################## Ingredients #######################
 material:
   enable : true
-  title : "The hungryhairwax Formula"
+  title : "Our Formula"
   subtitle : "Our hair wax is made with 100% natural ingredients"
   materialItem:
     # material item loop
     - title : "Coconut Oil"
-      image : "images/material/coconut-oil.jpg"
+      image : "images/material/coconut-oil.png"
       content : "Our hair can absorb the fatty acids in coconut oil, helping it prevent protein loss and become soft"
       
     # material item loop
     - title : "Kaolin Clay"
-      image : "images/material/kaolin-clay.jpg"
+      image : "images/material/kaolin-clay.png"
       content : "Kaolin clay is rich in silica which strengthens hair and prevents thinning"
       
     # material item loop
     - title : "Beeswax"
-      image : "images/material/beeswax.jpg"
+      image : "images/material/beeswax.png"
       content : "Beeswax locks in our hair's natural moisture and provides a thin layer of UV protection"
       
     # material item loop
     - title : "Citrus Essential Oils"
-      image : "images/material/citrus-essential-oils.jpg"
+      image : "images/material/citrus-essential-oils.png"
       content : "Citrus essential oils smell amazing and are excellent at fighting off bacteria. "
 
   
   ########################## Reviews ########################
 testimonial:
   enable : true
-  title : "Natural Hair Wax Reviews"
+  title : "Reviews"
   testimonialItem:
     # testimonial item loop
     - name : "Charli X Boi"
       image : "images/clients/charlixboi.png" # size 100px*100px
       designation : "Male beauty influencer"
-      content : "I really like it on my hair.<br>I have thin hair but enjoy a natural finish<br>so I’m happy with it for me."
+      content : "I really like it on my hair.<br> I have thin hair but enjoy a natural finish<br> so I’m happy with it for me."
       rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "Steve Larter"
       image : "images/clients/stevelarter.png" # size 100px*100px
       designation : "Actor, voice artist, improviser, stock market trader"
-      content : " I'm really impressed<br>it works really well and smells great too. I'll definitely be ordering more when this jar is done!<br>Thank for a great product!"
+      content : " I'm really impressed<br> it works really well and smells great too. I'll definitely be ordering more when this jar is done!<br>Thank for a great product!"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
@@ -69,28 +69,29 @@ testimonial:
       image : "images/clients/johannbeute.png" # size 100px*100px
       designation : "Filmmaker / Editor / Colorist / Photographer"
       content : "It smells super good, like honey and limes,<br> not the chemical vibe most other brands have.<br> The wax is super lightweight in my hair, <br>and it never feels sticky or heavy when I use it."
-      rating : "five" # rating star, one to five
+      rating : "four" # rating star, one to five
 
 ########################### Advantages #########################
 advantage:
   enable : true
-  title : "Advantages Of Using Our <br>Hair Wax"
-  subtitle : "100% natural ingredients contain antioxidants, nutrients, and minerals"
+  title : "Hair Health Benefits"
+  subtitle : "100% natural ingredients contain high levels of antioxidants, nutrients, and minerals"
   image : "images/advantage.png"
   advantageList:
     # advantage list loop
     - listItem : "Promotes hair growth"
     - listItem : "Alcohol & chemical-free"
-    - listItem : "Repairs damaged strands & softens hair"
+    - listItem : "Repairs damaged strands"
     - listItem : "Improves hair strength & elasticity"
-    - listItem : "Naturally moisturizes the hair & scalp"
+    - listItem : "Moisturizes the hair & scalp"
     - listItem : "Doesn't sweat-out/ lose hold"
-    
+    - listItem : "softens hair"
+ 
     ######################## How To Use ##########################
 video:
   enable : true
-  title : "How To Use Our Natural Hair Wax"
-  content : "You only need a pea-sized amount to style short to medium hair lengths"
+  title : "How To Use"
+  content : "Only use a pea-sized amount to style short to medium hair lengths"
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://youtu.be/S8P8gn51zew"
 
@@ -99,7 +100,7 @@ about:
   enable : true
   title : "<br><br>About hungryhairwax"
   subtitle : "Founder - George Anthony Heginbotham"
-  content : "I created hungryhairwax because I couldn't find natural hair wax in South Africa.
+  content : "I created our natural hair wax because I couldn't find natural hair wax in South Africa.
            I experimented with a few online recipes, then formulated my own. I'm happy to say this product is perfect, as perfect as a natural hair wax can get!
           It gives the hair an all-day natural hold and subtle shine. Plus, you get all the antioxidants and minerals from the raw natural ingredients."
 
