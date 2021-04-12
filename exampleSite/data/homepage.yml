@@ -80,12 +80,13 @@ advantage:
   advantageList:
     # advantage list loop
     - listItem : "Promotes hair growth"
+    - listItem : "Protects the hair from heat"
+    - listItem : "Naturally fights-off bacteria"
+    - listItem : "Moisturizes the hair & scalp"
+    - listItem : "Improves hair strength & elasticity"
     - listItem : "Alcohol & chemical-free"
     - listItem : "Repairs damaged strands"
-    - listItem : "Improves hair strength & elasticity"
-    - listItem : "Moisturizes the hair & scalp"
     - listItem : "Doesn't sweat-out/ lose hold"
-    - listItem : "softens hair"
 
 
 ########################## About ##############################
