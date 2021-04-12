@@ -134,6 +134,27 @@
 {{ end }}
 <!-- /advantages -->
 
+<!-- about -->
+{{ if site.Data.homepage.about.enable }}
+{{ with site.Data.homepage.about }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-lg-5 col-md-6">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <h2>{{ .title | markdownify }}</h2>
+         <h4>{{ .subtitle | markdownify }}</h4>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
+
 <!-- How To Use -->
 {{ if site.Data.homepage.video.enable }}
 {{ with site.Data.homepage.video }}
@@ -168,35 +189,11 @@
 {{ end }}
 <!-- /How To Use -->
 
-
-
-
-<!-- about -->
-{{ if site.Data.homepage.about.enable }}
-{{ with site.Data.homepage.about }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-      </div>
-      <div class="col-md-6 col-lg-5">
-        <h2>{{ .title | markdownify }}</h2>
-         <h4>{{ .subtitle | markdownify }}</h4>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /about -->
-
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://hungryhairwax.us1.list-manage.com/subscribe/post?u=eb19af8bfc118c567891be160&amp;id=d893138714" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div class = "container" id="mc_embed_signup_scroll">
-	<h2>Subscribe for FREE hair healthy recipes!</h2>
+	<h2>Join our mailing list for FREE hair healthy recipes!</h2>
 <div class="container">
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="container" id="mce-EMAIL">
