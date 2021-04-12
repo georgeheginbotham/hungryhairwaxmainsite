@@ -104,7 +104,7 @@ about:
       ######################## How To Use ##########################
 video:
   enable : true
-  title : "How To Use"
+  title : "How To Apply"
   content : "Only use a pea-sized amount to style short to medium hair lengths"
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/S8P8gn51zew"
