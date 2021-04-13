@@ -153,7 +153,7 @@
   &::before {
     position: absolute;
     font-family: $primary-font;
-    
+    content: "\e67f";
     left: -10px;
     top: -5px;
   }
