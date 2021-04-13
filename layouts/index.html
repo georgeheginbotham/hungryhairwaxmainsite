@@ -139,8 +139,8 @@
 {{ with site.Data.homepage.video }}
 <section class="section pt-0">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-5 col-md-6">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-6">
         <div class="img-border rounded mb-5 mb-md-0">
           <img src="{{ .videoThumb | absURL }}" alt="video thumb" class="img-fluid rounded">
           <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
