@@ -149,22 +149,6 @@
 .quoted {
   position: relative;
   padding: 0 10px;
-
-  &::before {
-    position: absolute;
-    font-family: $icon-font;
-    content: "\e67e";
-    left: -10px;
-    top: -5px;
-  }
-
-  &::after {
-    position: absolute;
-    font-family: $icon-font;
-    content: "\e67e";
-    right: -10px;
-    top: -5px;
-  }
 }
 
 /* blog */
