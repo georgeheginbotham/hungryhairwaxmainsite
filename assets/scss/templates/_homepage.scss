@@ -153,7 +153,7 @@
   &::before {
     position: absolute;
     font-family: $primary-font;
-    content: "\e67f";
+    
     left: -10px;
     top: -5px;
   }
@@ -161,7 +161,7 @@
   &::after {
     position: absolute;
     font-family: $icon-font;
-    content: "\e001";
+    content: "\e67e";
     right: -10px;
     top: -5px;
   }
