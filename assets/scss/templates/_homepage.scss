@@ -152,8 +152,8 @@
 
   &::before {
     position: absolute;
-font-family: Quicksand;
-  font-weight: 400;
+            font-family: $icon-font;
+ content: "\e65d";
     left: -10px;
     top: -5px;
   }
