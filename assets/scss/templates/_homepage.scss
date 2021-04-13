@@ -153,7 +153,9 @@
   &::before {
     position: absolute;
     font-family: $primary-font;
-    content: "\e67f";
+    -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  color: $text-color;
     left: -10px;
     top: -5px;
   }
