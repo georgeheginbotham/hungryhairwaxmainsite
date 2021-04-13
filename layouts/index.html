@@ -88,7 +88,7 @@
         <div class="card border-primary text-center">
           <div class="card-body">
             <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
-            <p = "font-weight-medium">{{ .content | markdownify }}</p>
+            <p = "quoted">{{ .content | markdownify }}</p>
             <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
             <small>{{ .designation | markdownify }}</small>
             <ul class="list-inline rating {{ .rating | lower }} mt-3">
