@@ -173,14 +173,14 @@
 {{ with site.Data.homepage.about }}
 <section class="section pt-0">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 col-lg-5">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-      </div>
-	 <div class="col-lg-5 col-md-6">
+    <div class="row justify-content-around align-items-center">
+           <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
          <h4>{{ .subtitle | markdownify }}</h4>
         <p>{{ .content | markdownify }}</p>
+      </div>
+ 	    <div class="col-lg-5 col-md-6">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
       </div>
     </div>
   </div>
