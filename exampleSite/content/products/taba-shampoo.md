@@ -1,5 +1,5 @@
 ---
-title: "Grapefruit", "Orange", "Lemon"
+title: Grapefruit Hair Wax
 date: 2019-10-17T11:22:16.000+06:00
 description: 'Eliminate dandruff '
 price: '180.00'
@@ -13,14 +13,12 @@ images:
 
 ---
 **Ingredients:**
-
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
 * Organic Lime Essential Oil
 
 **Benefits:**
-
 1. Alcohol & chemical-free
 2. Promotes hair growth
 3. Repairs & softens damaged strands
