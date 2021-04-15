@@ -18,20 +18,12 @@
       <div class="col-lg-5 offset-lg-1">
         <h4 class="font-weight-medium">{{ .Title }}</h4>
         
-        	<p id="result">Hair Wax Scent</p>
-        
         <select class ="container" id ="dropdownhairwax">
             <option value = "grapefruit">Grapefruit</option>
             <option value = "orange">Orange </option>
             <option value = "lime">Lime</option>
             <option value = "lemon">Lemon</option>
          </select>
-        
-        var e = document.getElementById("dropdownhairwax");
-var result = e.options[e.selectedIndex].text;
-alert(result);
-
-        
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
@@ -45,7 +37,7 @@ alert(result);
           </div>
                    </p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name="GetSelectedText()" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+          data-item-name="e.options[e.selectedIndex].text" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
           Add to cart
         </button>
