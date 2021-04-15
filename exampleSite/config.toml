@@ -79,20 +79,13 @@ location = "Cape Town, South Africa"
 # copyright
 copyright = "Copyright &copy; | 2021 George Anthony Heginbotham | All Rights Reserved"
 # Snipcart Credentials
-snipcartApiKey = "EDFYj0bqEMTCS5ZPlMRiUakXPfYORIpgCupF709b-kZBuuCUF9pNJip0XhFroWDvF6pcynu1qau6QzsG"
+snipcartApiKey = "ZDYxMTEwYmMtOWFmMi00Mjk2LTljZTEtZDFhYjBjZmU2NWI3NjM3MzMzMzgyMjcwNzE0MjA0"
 currencySymbol = "R"
 
   # Preloader
   [params.preloader]
   enable = true
   preloader = "" # use .png , .svg or .gif format
-
-  # Product Rating
-  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
-  [params.rating]
-  enable = false
-  websiteID = "444334"
-  publicKey = "811cf0927332bf51f2e12f84608594ac"
 
   # Social Site
   [[params.social]]
