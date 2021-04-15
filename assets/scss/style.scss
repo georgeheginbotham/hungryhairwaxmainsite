@@ -97,3 +97,11 @@ select:active {
   border-color: var(--accentFg);
   background-color: var(--accentFg);
 }
+
+.dropdownhairwax {
+  --radius: 0;
+  --baseFg: white;
+  --baseBg: black;
+  --accentFg: black;
+  --accentBg: orange;
+}
