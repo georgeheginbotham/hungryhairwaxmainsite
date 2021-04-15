@@ -17,7 +17,6 @@ images:
 * Organic Coconut Oil
 * Natural Kaolin Clay
 * Organic Lime Essential Oil
-*
 
 **Benefits:**
 1. Alcohol & chemical-free
