@@ -160,4 +160,14 @@ ga('send', 'pageview');
   s.parentNode.insertBefore(rw, s);
 }(document, new Date(), "script", "rating-widget.com/"));
 </script>
+
+<script>
+  function GetSelectedText(){
+				var e = document.getElementById("dropdownhairwax");
+				var result = e.options[e.selectedIndex].text;
+
+				document.getElementById("result").innerHTML = result;
+			}
+  </script
+
 {{ end }}
