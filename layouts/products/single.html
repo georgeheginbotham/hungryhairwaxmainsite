@@ -26,14 +26,11 @@
             <option value = "lime">Lime</option>
             <option value = "lemon">Lemon</option>
          </select>
-
-<script>
-  function GetSelectedText(){
-var e = document.getElementById("dropdownhairwax");
+        
+        var e = document.getElementById("dropdownhairwax");
 var result = e.options[e.selectedIndex].text;
-document.getElementById("result").innerHTML = result;
-}
-</script>
+alert(result);
+
         
         <div class="my-4">
           {{ if .Params.PriceBefore }}
