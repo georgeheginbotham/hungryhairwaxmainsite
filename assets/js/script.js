@@ -66,13 +66,6 @@ $(window).on('load', function () {
       }
     ]
   });
-  
-			function GetSelectedText(){
-				var e = document.getElementById("dropdownhairwax");
-				var result = e.options[e.selectedIndex].text;
-
-				document.getElementById("result").innerHTML = result;
-			}
 
   // product Slider
   $('.product-slider').slick({
