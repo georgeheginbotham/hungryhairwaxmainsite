@@ -33,6 +33,7 @@ form {
   padding-top: 10px;
   padding-bottom:-10px;
   background-color: #FFFFFF;
+  text-align: center;
 }
 
 /* Style the input elements and the submit button */
@@ -60,6 +61,3 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
-
-select { width: 400px; text-align: center; }
-select .lt { text-align: center; }
