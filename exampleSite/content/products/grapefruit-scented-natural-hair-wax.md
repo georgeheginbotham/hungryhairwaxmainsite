@@ -1,6 +1,5 @@
 ---
-title: Grapefruit Natural Hair Wax
-date: 2019-10-17T11:22:16.000+06:00
+title: Grapefruit Scented Natural Hair Wax
 description: 'Eliminate dandruff '
 price: '180.00'
 priceBefore: "200"
