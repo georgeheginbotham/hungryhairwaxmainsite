@@ -1,5 +1,5 @@
 ---
-title: Grapefruit Hair Wax
+title: "Grapefruit", "Orange", "Lemon"
 date: 2019-10-17T11:22:16.000+06:00
 description: 'Eliminate dandruff '
 price: '180.00'
