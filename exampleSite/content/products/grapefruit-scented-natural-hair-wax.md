@@ -1,6 +1,7 @@
 ---
 title: Grapefruit Scented Natural Hair Wax
-description: 'Eliminate dandruff '
+description: 'Eliminate dandruff'
+variants: Grapefruit, Chocolate, Donkey
 price: '180.00'
 priceBefore: "200"
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
