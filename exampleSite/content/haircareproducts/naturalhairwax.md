@@ -1,10 +1,25 @@
 ---
 title: "Natural Hair Wax"
+date: 2019-10-17T11:22:16+06:00
 draft: false
+
+# meta description
+description : "For Glowing Skin"
+
+# product Price
+price: "152.00"
+
+# Product Short Description
 description: "100% natural hair wax"
-price: "152"
+
+#product ID
 productID: "hairwax"
+
+# type must be "products"
 type: "products"
+
+# product Images
+# first image will be shown in the product page
 images:
 - image: "/uploads/grapefruit-1.jpg"
 ---
