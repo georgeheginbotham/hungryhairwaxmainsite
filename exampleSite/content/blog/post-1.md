@@ -1,26 +1,33 @@
 ---
-title: "Lower Back Pain? Self-Administered Acupressure Could Help"
-date: 2019-10-17T11:22:16+06:00
-draft: false
-description : "this is a meta description"
-image: "images/blog/post-1.jpg"
-author: "John Doe"
+title: Hair Health Benefits Of Cococnut Oil
+date: 2021-04-15T05:22:16+00:00
+description: Hair Health Benefits Of Cococnut Oil
+image: "/uploads/coconut-oil.jpg"
+author: hungryhairwax
+
 ---
+**Fights fungal infections**
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+Healthy hair begins at the root. Keeping your scalp healthy may help your hair grow better.
 
-aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+One recent lab study found that coconut oil helped to get rid of some types of fungal infections.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Coconut oil may help heal or prevent dandruff and other fungi on the scalp. More research is needed to know if coconut oil has the same health benefits on the skin and scalp.
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilis
+**Calms irritation**
 
-> And yes, it does attach an image of you selecting a text on Medium instead of just quoting the text. What a mess with blog.
+Coconut oil is a natural saturated fat. The high fat content in it may help calm scalp irritation, flaking, and itching. The fat in coconut oil can also help seal in hair moisture.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+**Treats split ends**
 
-aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+A review in 2015Trusted Source noted that coconut oil absorbs into hair strands better than mineral oil and other kinds of oils. This might help prevent hair breaking and split ends.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+For this reason, you may need fewer trims when you use coconut oil on your hair regularly. This might make it seem like your hair is growing longer, faster.
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilis
+Another review on the uses of coconut oil in India found that the oil may help reduce protein loss in hair. This prevents dry, brittle, or breaking hair. The researchers note that in India, coconut oil is used both as a hair mask before showering and as a leave-in conditioner after showering.
+
+**Protects from heat damage**
+
+Using a small amount of coconut oil on wet hair before drying or using heat styling may protect hair from water and heat damage.
+
+Hygral fatigue happens when the hair swells up from too much water. Too much swelling can damage the hair or make it break. This can make hair drier and weaker over time.
