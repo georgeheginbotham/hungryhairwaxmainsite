@@ -47,7 +47,7 @@ function myFunction() {
           </div>
                    </p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name= "document.getElementById("scent").text;" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+          data-item-name= "document.getElementById("scent").value;" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
           Add to cart
         </button>
