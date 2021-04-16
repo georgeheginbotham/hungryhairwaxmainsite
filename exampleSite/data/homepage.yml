@@ -9,6 +9,7 @@ banner:
     enable : true
     label : "Natural Hair Wax"
     link : "hairwaxproducts"
+    #button 2
     
     button2:
     enable : true
