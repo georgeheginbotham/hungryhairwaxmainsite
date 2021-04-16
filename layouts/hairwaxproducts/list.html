@@ -1,12 +1,12 @@
 {{ define "main" }}
 
 <!-- products -->
-{{ if site.Data.natural-hair-wax.hairwaxproducts.enable }}
+{{ if site.Data.hairwax.hairwaxproducts.enable }}
 <section class="sectionproducts">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        {{ with site.Data.natural-hair-wax.hairwaxproducts }}
+        {{ with site.Data.hairwax.hairwaxproducts }}
         <h2>{{ .title | markdownify }}</h2>
         {{ end }}
       </div>
