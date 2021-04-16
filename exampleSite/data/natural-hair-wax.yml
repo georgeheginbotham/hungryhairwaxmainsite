@@ -5,11 +5,11 @@ products:
   # product item comes from "content/products"
   
   ######################## Ingredients #######################
-material:
+ingredients:
   enable : true
   title : "Our Formula"
   subtitle : "Our hair wax is made with 100% natural ingredients<br>"
-  materialItem:
+  ingredientItem:
     # material item loop
     - title : "Coconut Oil"
       image : "images/material/coconut-oil.png"
@@ -32,10 +32,10 @@ material:
 
   
   ########################## Reviews ########################
-testimonial:
+reviews:
   enable : true
   title : "Reviews"
-  testimonialItem:
+  reviewItem:
     # testimonial item loop
     - name : "Charli X Boi"
       image : "images/clients/charlixboi.png" # size 100px*100px
@@ -72,12 +72,12 @@ testimonial:
       rating : "five" # rating star, one to five
 
 ########################### Advantages #########################
-advantage:
+benefits:
   enable : true
   title : "Hair Health Benefits"
   subtitle : "100% natural ingredients contain high levels of antioxidants, nutrients, and minerals"
   image : "images/advantage.png"
-  advantageList:
+  benefitsList:
     # advantage list loop
     - listItem : "Promotes hair growth"
     - listItem : "Prevents hair loss"
@@ -101,7 +101,7 @@ about:
   image : "images/about.jpg"
   
       ######################## How To Use ##########################
-video:
+hairwaxvid:
   enable : true
   title : "How To Apply Our Hair Wax"
   content : "Only use a pea-sized amount to style short to medium hair lengths"
