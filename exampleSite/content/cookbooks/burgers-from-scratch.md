@@ -1,11 +1,14 @@
 ---
 title: Burgers From Scratch
-description: Hair Healthy Burgers
-price: "512"
-productID: bfsebook
-type: products
+description: 'Get the burgers you deserve'
+price: '50.00'
+priceBefore: "200"
+shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
+  wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
+  hair.
+productID: "12"
 images:
-- image: "/uploads/burgersfromscratch.jpg"
+- image: "/uploads/burgers-from-scratch.jpg"
 
 ---
 Style hair naturally with our 100% natural fruit scented hair
