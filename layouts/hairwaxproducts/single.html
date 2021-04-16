@@ -19,11 +19,6 @@
       <div class="col-lg-5 offset-lg-1">
         <h4 class="font-weight-medium">{{ .Title }}</h4>
        
-<script>
-function myFunction() {
-  document.getElementById("scent").text;
-}
-</script>
         
     {{ range $element := .Params.options }}
     <select class="container" id ="scent" onclick="myFunction()">
@@ -47,7 +42,7 @@ function myFunction() {
           </div>
                    </p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name= "$("#scent option:selected").text();" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+          data-item-name= "{{ .Params.options }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
           Add to cart
         </button>
