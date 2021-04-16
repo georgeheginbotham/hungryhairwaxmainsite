@@ -1,3 +1,9 @@
+######################## Products #############################
+haircareproducts:
+  enable : true
+  #title : "Products List"
+  # product item comes from "content/products"
+  
 ############################ banner ##########################
 banner:
   enable : true
