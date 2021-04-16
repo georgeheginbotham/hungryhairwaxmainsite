@@ -8,10 +8,6 @@ options: [
              "option" : ["Lime"],
             "price": "R200.00"
         },
-        {
-            "option" : ["Lime"],
-            "price": "R200.00"
-        }
     ]   
 price: '180.00'
 priceBefore: "200"
