@@ -1,7 +1,7 @@
 ---
-title: Natural Hair Wax
-description: '100% natural hair wax' 
-price: '152'
+title: "Natural Hair Wax"
+description: "100% natural hair wax"
+price: "152"
 productID: "hairwax"
 type: "products"
 images:
