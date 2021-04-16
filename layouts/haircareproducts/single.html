@@ -6,7 +6,6 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5 mb-4 mb-lg-0">
-        
         <!-- product image slider -->
         <div class="product-slider">
           {{ range .Params.Images }}
@@ -32,7 +31,8 @@
                    </p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
           data-item-name= "{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}" data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Grapefruit[+5.00]|Orange[+2.00]|Lime[+3.00]|Lemon[+4.00]">
+           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
+            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Grapefruit[+5.00]|Orange[+2.00]|Lime[+3.00]|Lemon[+4.00]">
           Add to cart
         </button>
       </div>
