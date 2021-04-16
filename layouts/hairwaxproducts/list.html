@@ -72,6 +72,39 @@
 {{ end }}
 <!-- /ingredients -->
 
+<!-- How To Use -->
+{{ if site.Data.homepage.hairwaxvid.enable }}
+{{ with site.Data.homepage.hairwaxvid }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-5 col-md-6">
+        <div class="img-border rounded mb-5 mb-md-0">
+          <img src="{{ .videoThumb | absURL }}" alt="video thumb" class="img-fluid rounded">
+          <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
+            class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
+          <!-- Modal -->
+          <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content border-0 rounded-0">
+                <iframe width="560" height="315" src="" id="video2" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /How To Use -->
 <!-- reviews -->
 {{ if site.Data.homepage.reviews.enable }}
 {{ with site.Data.homepage.reviews }}
@@ -134,60 +167,6 @@
 {{ end }}
 <!-- /advantages -->
 
-<!-- How To Use -->
-{{ if site.Data.homepage.hairwaxvid.enable }}
-{{ with site.Data.homepage.hairwaxvid }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-lg-5 col-md-6">
-        <div class="img-border rounded mb-5 mb-md-0">
-          <img src="{{ .videoThumb | absURL }}" alt="video thumb" class="img-fluid rounded">
-          <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
-            class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
-          <!-- Modal -->
-          <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content border-0 rounded-0">
-                <iframe width="560" height="315" src="" id="video2" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /How To Use -->
-
-<!-- about -->
-{{ if site.Data.homepage.about.enable }}
-{{ with site.Data.homepage.about }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row justify-content-around align-items-center">
-           <div class="col-md-6 col-lg-5">
-        <h2>{{ .title | markdownify }}</h2>
-         <h4>{{ .subtitle | markdownify }}</h4>
-        <p>{{ .content | markdownify }}</p>
-      </div>
- 	    <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /about -->
 
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
