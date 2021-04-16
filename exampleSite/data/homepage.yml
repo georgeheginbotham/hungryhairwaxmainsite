@@ -13,7 +13,7 @@ banner:
     button:
     enable : true
     label : "Cookbooks"
-    link : "cookbooks
+    link : "cookbooks"
     
 ########################## About ##############################
 about:
