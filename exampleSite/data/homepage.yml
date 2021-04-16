@@ -1,5 +1,5 @@
 ######################## Products #############################
-natural hair wax:
+naturalhairwax:
   enable : true
   #title : "Products List"
   # product item comes from "content/products"
