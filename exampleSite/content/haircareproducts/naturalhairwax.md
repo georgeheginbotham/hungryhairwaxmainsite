@@ -2,7 +2,7 @@
 title: Natural Hair Wax
 description: '100% natural hair wax' 
 price: '152'
-productID: "9"
+productID: "hairwax"
 images:
 - image: "/uploads/grapefruit-1.jpg"
 
