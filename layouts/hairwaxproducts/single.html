@@ -19,16 +19,14 @@
       <div class="col-lg-5 offset-lg-1">
         <h4 class="font-weight-medium">{{ .Title }}</h4>
        
-    <div class = "container">
     {{ range $index, $element := .Params.options }}
     <span>{{ $index | humanize }}</span>
-    <select class="select-{{ $index }}">
+    <select class="container">
        {{ range $element  }}
         <option>{{ . }}</option>
       {{ end }}
     </select>
     {{ end }}
-      </div>
 
         
         <div class="my-4">
