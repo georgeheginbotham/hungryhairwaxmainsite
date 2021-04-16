@@ -1,28 +1,16 @@
 ---
-title: "Natural Hair Wax"
-draft: false
-
-# meta description
-description : "For Glowing Skin"
-
-# product Price
-price: "152.00"
-
-# Product Short Description
-description: "100% natural hair wax"
-
-#product ID
-productID: "hairwax"
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
+title: Natural Hair Wax
+description: 'Get the hair you deserve'
+price: '180.00'
+priceBefore: "200"
+shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
+  wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
+  hair.
+productID: "9"
 images:
 - image: "/uploads/grapefruit-1.jpg"
----
 
+---
 Style hair naturally with our 100% natural fruit scented hair wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged hair.
   
 **Ingredients:**
