@@ -3,7 +3,7 @@ title: Grapefruit Scented Natural Hair Wax
 description: 'Eliminate dandruff'
 options: [
        {
-            "option" : "Grapefruit", "Orange", "Lime", "Lemon"
+            "Grapefruit", "Orange", "Lime", "Lemon"
         }
     ]   
 price: '180.00'
