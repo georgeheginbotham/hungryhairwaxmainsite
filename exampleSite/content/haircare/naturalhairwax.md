@@ -1,14 +1,6 @@
 ---
 title: Natural Hair Wax
-description: 'Get the hair you deserve'
-options: [
-       {
-           "grapefruit" : "Grapefruit",
-           "orange" : "Orange",
-           "lime" : "Lime",
-           "lemon" : "Lemon"
-        }
-    ]   
+description: 'Get the hair you deserve' 
 price: '180.00'
 priceBefore: "200"
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
