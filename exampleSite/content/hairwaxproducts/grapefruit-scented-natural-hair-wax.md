@@ -4,9 +4,9 @@ description: 'Eliminate dandruff'
 options: [
        {
            "option" : "Grapefruit",
-           "option" : "Orange",
-           "option" : "Lime",
-           "option" : "Lemon"
+           "Orange",
+           Lime",
+           "Lemon"
         },
     ]   
 price: '180.00'
