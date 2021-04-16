@@ -20,11 +20,12 @@
         <h4 class="font-weight-medium">{{ .Title }}</h4>
        
     {{ range $element := .Params.options }}
-    <select class="container">
+    <select class="container" id ="scent">
        {{ range $element  }}
         <option>{{ . }}</option>
       {{ end }}
     </select>
+        var scentoption = $('#scent').find(":selected").text();
     {{ end }}
 
         
@@ -41,7 +42,7 @@
           </div>
                    </p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name="{{ .Title }} {{ .Params.options.element }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+          data-item-name= scentoption "{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
           Add to cart
         </button>
