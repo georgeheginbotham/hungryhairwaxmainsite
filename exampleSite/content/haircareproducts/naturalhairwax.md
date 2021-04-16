@@ -1,9 +1,8 @@
 ---
 title: Natural Hair Wax
-description: 'Get the hair you deserve' 
-price: '180.00'
-priceBefore: "200"
-shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
+description: '100% natural hair wax' 
+price: '152-164'
+shortDescription: Style hair naturally with our 100% natural fruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
 productID: "9"
@@ -15,7 +14,7 @@ images:
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
-* Organic Lime Essential Oil
+* Organic Citrus Essential Oil
 
 **Benefits:**
 1. Alcohol & chemical-free
