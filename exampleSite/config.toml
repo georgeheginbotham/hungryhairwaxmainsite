@@ -30,40 +30,50 @@ disqusShortname = ""
 [menu]
 
   [[menu.main]]
-  name = "Products"
-  URL = "products"
+  name = "Natural Hair Wax"
+  URL = "natural-hair-wax"
   weight = 1
+  
+  [[menu.main]]
+  name = "Cookbooks"
+  URL = "cookbooks"
+  weight = 2
 
   [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 2
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  weight = 4
 
   ############# footer menu #############
   [[menu.footer]]
-  name = "Products"
-  URL = "products"
+  name = "Natural Hair Wax"
+  URL = "natural-hair-wax"
   weight = 1
+  
+  [[menu.main]]
+  name = "Cookbooks"
+  URL = "cookbooks"
+  weight = 2
 
   [[menu.footer]]
   name = "Blog"
   URL = "blog"
-  weight = 2
+  weight = 3
 
   [[menu.footer]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  weight = 4
 
   [[menu.footer]]
   name = "Refund Policy"
   URL = "refund-policy"
-  weight = 4
+  weight = 5
 
 #################### default parameters ################################
 
