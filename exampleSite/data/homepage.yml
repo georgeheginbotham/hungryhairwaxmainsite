@@ -1,8 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Get The Hair You Deserve"
+  title : "Get The Hair You Deserve"
+  content : "products"
   image : "images/banner.png"
   # button
   button:
@@ -10,7 +10,7 @@ banner:
     label : "Natural Hair Wax"
     link : "hairwaxproducts"
     
-    button:
+    button 2:
     enable : true
     label : "Cookbooks"
     link : "cookbooks"
