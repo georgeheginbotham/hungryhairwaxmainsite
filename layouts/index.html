@@ -6,7 +6,7 @@
 <section class="section-sm centerbanner">
   <div class="container centerbanner">
     <div class="row justify-content-between centerbanner">
-      <div class="col-lg-5 col-md-6 order-2 order-md-1">
+      <div class="container centerbanner">
         <h2><b>{{ .title | markdownify }}</b></h2>
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
