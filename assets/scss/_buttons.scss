@@ -37,6 +37,20 @@
   }
 }
 
+.btn-secondary {
+  background: $primary-gradient;
+  color: $white;
+  border-color: $primary-color;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background: $primary-gradient !important;
+    border-color: $primary-color !important;
+  }
+}
+
 .btn-outline-primary {
   background: transparent;
   color: $text-color;
