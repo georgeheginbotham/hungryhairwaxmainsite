@@ -13,7 +13,26 @@
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a>
         {{ end }}
-      </div?
+        {{ end }}
+
+        {{ if .video.enable }}
+        {{ with .video }}
+        <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal"
+          class="text-color video-modal"><i
+            class="ti-control-play bg-gradient hover-shadow btn-play mr-2"></i><span>Watch Video</span></a>
+        {{ end }}
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0 rounded-0">
+              <iframe width="560" height="315" src="" id="video" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
         <img src="{{ .image | absURL }}" class="img-fluid" alt="">
       </div>
@@ -23,6 +42,7 @@
 {{ end }}
 {{ end }}
 <!-- /banner -->
+
 
 <!-- about -->
 {{ if site.Data.homepage.about.enable }}
