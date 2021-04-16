@@ -6,7 +6,6 @@ productID: bfsebook
 type: products
 images:
 - image: "/uploads/burgersfromscratch.jpg"
-- image: "/uploads/burgersfromscratch.jpg"
 
 ---
 Style hair naturally with our 100% natural fruit scented hair
