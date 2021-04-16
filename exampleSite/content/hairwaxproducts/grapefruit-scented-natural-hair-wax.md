@@ -1,6 +1,6 @@
 ---
 title: Grapefruit Scented Natural Hair Wax
-description: 'Eliminate dandruff'
+description: 'Get the hair you deserve'
 options: [
        {
            "grapefruit" : "Grapefruit",
