@@ -21,7 +21,7 @@
        
         
     {{ range $element := .Params.options }}
-    <select class="container" id ="scent" onclick="myFunction()">
+    <select class="container">
        {{ range $element  }}
         <option>{{ . }}</option>
       {{ end }}
