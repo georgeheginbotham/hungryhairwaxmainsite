@@ -1,13 +1,14 @@
 ---
 title: "Natural Hair Wax"
+draft: false
 description: "100% natural hair wax"
 price: "152"
 productID: "hairwax"
 type: "products"
 images:
 - image: "/uploads/grapefruit-1.jpg"
-
 ---
+
 Style hair naturally with our 100% natural fruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
