@@ -9,14 +9,3 @@ banner:
     enable : true
     label : "All Products"
     link : "all-products"
-    
-########################## About ##############################
-about:
-  enable : true
-  title : "<br><br>About hungryhairwax"
-  subtitle : "Founder - George Anthony Heginbotham"
-  content : "I created our hair wax because I couldn't find natural hair wax in South Africa.
-           I experimented with a few online recipes, then formulated my own. I'm happy to say this product is perfect, as perfect as a natural hair wax can get!
-          It gives the hair an all-day natural hold and subtle shine. Plus, you get all the antioxidants and minerals from the raw natural ingredients."
-
-  image : "images/about.jpg"
