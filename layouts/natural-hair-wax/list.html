@@ -1,16 +1,16 @@
 {{ define "main" }}
 
 <!-- products -->
-{{ if site.Data.natural-hair-wax.products.enable }}
+{{ if site.Data.natural-hair-wax.hairwaxproducts.enable }}
 <section class="sectionproducts">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        {{ with site.Data.natural-hair-wax.products }}
+        {{ with site.Data.natural-hair-wax.hairwaxproducts }}
         <h2>{{ .title | markdownify }}</h2>
         {{ end }}
       </div>
-      {{ range first 1 (where site.RegularPages "Type" "products") }}
+      {{ range first 1 (where site.RegularPages "Type" "hairwaxproducts") }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
