@@ -1,5 +1,5 @@
 ---
-title: Grapefruit Scented Natural Hair Wax
+title: Natural Hair Wax
 description: 'Get the hair you deserve'
 options: [
        {
