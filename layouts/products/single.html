@@ -6,6 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5 mb-4 mb-lg-0">
+        
         <!-- product image slider -->
         <div class="product-slider">
           {{ range .Params.Images }}
@@ -18,6 +19,17 @@
       <div class="col-lg-5 offset-lg-1">
         <h4 class="font-weight-medium">{{ .Title }}</h4>
        
+        <p>
+    {{ range $index, $element := .Params.options }}
+    <span>{{ $index | humanize }}</span>
+    <select class="select-{{ $index }}">
+       {{ range $element  }}
+        <option>{{ . }}</option>
+      {{ end }}
+    </select>
+    {{ end }}
+</p>
+        
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
