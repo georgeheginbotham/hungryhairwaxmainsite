@@ -3,11 +3,13 @@ title: Grapefruit Scented Natural Hair Wax
 description: 'Eliminate dandruff'
 options: [
        {
-            "optionCombination" : ["With extension wire"],
-            "price": "R917.00"
+            "option" : ["Orange"],
+            "price": "R917.00",
+             "option" : ["Lime"],
+            "price": "R200.00"
         },
         {
-            "optionCombination" : ["Without extension wire"],
+            "option" : ["Lime"],
             "price": "R200.00"
         }
     ]   
