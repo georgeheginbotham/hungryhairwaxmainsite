@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Get The Hair You Deserve"
   content : "products"
-  image : "images/banner.png"
+  image : "images/cover.jpg"
   # button
   button:
     enable : true
