@@ -1,7 +1,7 @@
 ---
 title: Hair Health Benefits Of Cococnut Oil
 date: 2021-04-15T05:22:16+00:00
-Summary: gjdklfjglksd
+Summary: Here are the top 4 benefits of coconut oil for hair
 description: Hair Health Benefits Of Cococnut Oil
 image: "/uploads/coconut-oil.jpg"
 author: hungryhairwax
