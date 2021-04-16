@@ -7,14 +7,8 @@ banner:
   # button
   button:
     enable : true
-    label : "Natural Hair Wax"
-    link : "hairwaxproducts"
-    #button 2
-    
-    button2:
-    enable : true
-    label : "Cookbooks"
-    link : "cookbooks"
+    label : "All Products"
+    link : "allproducts"
     
 ########################## About ##############################
 about:
