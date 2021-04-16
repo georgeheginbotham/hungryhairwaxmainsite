@@ -16,26 +16,26 @@
         </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
-        <h4 class="font-weight-medium">{{ .Title }}</h4>  
+        <h4 class="font-weight-medium">{{ .Title }}</h4>
+        <!-- rating star -->
+        {{ if site.Params.rating.enable }}
+        <div class="rw-ui-container"></div>
+        {{ end }}
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
           {{ end }}
           <span class="lead text-primary font-weight-medium">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
         </div>
-                 <p>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-            <div class="content">{{ .Content }}</div>
-          </div>
-                   </p>
+        <p>{{ .Params.Description | markdownify }}</p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
-           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
-            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Grapefruit[+5.00]|Orange[+2.00]|Lime[+3.00]|Lemon[+4.00]">
+          data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
+          {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
           Add to cart
         </button>
       </div>
+    </div>
   </div>
 </section>
+
 {{ end }}
