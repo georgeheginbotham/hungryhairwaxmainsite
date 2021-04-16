@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: exampleSite/cookbooks
+  path: exampleSite/content/cookbooks
   label: Cookbooks
   create: all
   match: "**/*"
