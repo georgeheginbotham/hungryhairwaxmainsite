@@ -1,10 +1,11 @@
 ---
 title: Burgers From Scratch
-description: 'Hair Healthy Burgers'
-price: '512'
-productID: "bfsebook"
-type: "products"
+description: Hair Healthy Burgers
+price: "512"
+productID: bfsebook
+type: products
 images:
+- image: "/uploads/burgersfromscratch.jpg"
 - image: "/uploads/burgersfromscratch.jpg"
 
 ---
