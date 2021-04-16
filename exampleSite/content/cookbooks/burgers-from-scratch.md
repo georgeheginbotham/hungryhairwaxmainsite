@@ -8,7 +8,7 @@ shortDescription: Style hair naturally with our 100% natural grapefruit scented 
   hair.
 productID: "12"
 images:
-- image: "/uploads/burgers-from-scratch.jpg"
+- image: "/uploads/burgersfromscratch.jpg"
 
 ---
 Style hair naturally with our 100% natural fruit scented hair
