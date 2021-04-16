@@ -4,7 +4,7 @@ description: 'Eliminate dandruff'
 options: [
        {
            "grapefruit" : "Grapefruit"
-           price: '170.00', 
+           "price": "170.00", 
            "orange" : "Orange"
         },
     ]   
