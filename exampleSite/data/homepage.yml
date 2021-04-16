@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Get The Hair You Deserve"
-  content : ""
+  content : "natural hair care products and hair healthy recipes"
   image : "images/cover.jpg"
   # button
   button:
