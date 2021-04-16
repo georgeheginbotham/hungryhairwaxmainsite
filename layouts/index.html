@@ -14,6 +14,12 @@
         <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a>
         {{ end }}
         {{ end }}
+	      
+	              {{ if .button2.enable }}
+        {{ with .button }}
+        <a href="{{ .link }}" class="btn btn-primary mr-8">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
 
         {{ if .video.enable }}
         {{ with .video }}
