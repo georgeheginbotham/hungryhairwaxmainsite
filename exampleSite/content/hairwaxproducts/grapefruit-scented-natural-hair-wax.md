@@ -7,7 +7,7 @@ options: [
            "orange" : "Orange",
            "lime" : "Lime",
            "lemon" : "Lemon"
-        },
+        }
     ]   
 price: '180.00'
 priceBefore: "200"
