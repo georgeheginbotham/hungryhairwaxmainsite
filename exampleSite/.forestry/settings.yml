@@ -4,7 +4,7 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
+- type: products
   path: exampleSite/content/cookbooks
   label: Cookbooks
   create: all
@@ -19,12 +19,7 @@ sections:
   label: Faq
   create: all
   match: "**/*"
-- type: directory
-  path: exampleSite/content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
+- type: products
   path: exampleSite/content/haircareproducts
   label: Hair Care Products
   create: all
