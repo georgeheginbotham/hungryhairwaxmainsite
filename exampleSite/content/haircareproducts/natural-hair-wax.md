@@ -1,5 +1,5 @@
 ---
-title: hungryhairwax Natural Hair Wax
+title: Natural Hair Wax
 description: 100% natural hair wax
 price: '152.00'
 priceBefore: ""
@@ -13,17 +13,17 @@ images:
 ---
 Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. It offers a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
 
+**Usage:**
+
+* Use a pea-sized amount to style hair
+* Each jar lasts 3-5 months 
+
 **Ingredients:**
 
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
 * Organic Citrus Essential Oil (Grapefruit, Orange, Lime, Lemon)
-
-**Usage:**
-
-* Use a pea-sized amount to style hair
-* Each jar lasts 3-5 months 
 
 **Benefits:**
 
