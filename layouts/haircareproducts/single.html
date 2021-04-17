@@ -30,18 +30,9 @@
             <div class="content">{{ .Content }}</div>
           </div>
                    </p>
-        <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
-           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
-            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Orange|Grapefruit[+10.00]|Lime[+7.00]|Lemon[+4.00]">
-          Add to cart
-        </button>
-      </div>
-  </div>
-    
-    <!-- testimonial -->
-{{ if site.Data.haircareproducts.reviews.enable }}
-{{ with site.Data.haircareproducts.reviews }}
+            <!-- testimonial -->
+{{ if site.Data.naturalhairwax.reviews.enable }}
+{{ with site.Data.naturalhairwax.reviews }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -50,12 +41,12 @@
       </div>
     </div>
     <div class="row testimonial-slider">
-      {{ range .testimonialItem }}
+      {{ range . reviewItem }}
       <div class="col-4">
         <div class="card border-primary text-center">
           <div class="card-body">
             <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
-            <p class="quoted">{{ .content | markdownify }}</p>
+            <p class="">{{ .content | markdownify }}</p>
             <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
             <small>{{ .designation | markdownify }}</small>
             <ul class="list-inline rating {{ .rating | lower }} mt-3">
@@ -75,5 +66,14 @@
 {{ end }}
 {{ end }}
 <!-- /testimonial -->
+        <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
+          data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
+           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
+            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Orange|Grapefruit[+10.00]|Lime[+7.00]|Lemon[+4.00]">
+          Add to cart
+        </button>
+      </div>
+  </div>
+    
 </section>
 {{ end }}
