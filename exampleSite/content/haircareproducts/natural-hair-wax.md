@@ -1,8 +1,8 @@
 ---
 title: hungryhairwax Natural Hair Wax
 description: 100% natural hair wax
-price: '180.00'
-priceBefore: "200"
+price: '152.00'
+priceBefore: ""
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
