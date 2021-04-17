@@ -1,0 +1,39 @@
+########################## Reviews ########################
+reviews:
+  enable : true
+  title : "Reviews"
+  reviewItem:
+    # testimonial item loop
+    - name : "Charli X Boi"
+      image : "images/clients/charlixboi.png" # size 100px*100px
+      designation : "Male beauty influencer"
+      content : "I really like it on my hair.<br> I have thin hair but enjoy a natural finish<br> so I’m happy with it for me."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Steve Larter"
+      image : "images/clients/stevelarter.png" # size 100px*100px
+      designation : "Actor, voice artist, improviser, stock market trader"
+      content : " I'm really impressed<br> it works really well and smells great too. I'll definitely be ordering more when this jar is done!<br>Thank for a great product!"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riaz Price"
+      image : "images/clients/riazprice.png" # size 100px*100px
+      designation : "Studies Industrial/ Organizational Psychology at UWC"
+      content : "Hey,<br> it's great and holds for so long,<br> even after gyming with it in my hair."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Kevin Wustefeld-Janssens"
+      image : "images/clients/wustefeldjanssens.png" # size 100px*100px
+      designation : "Satisfied customer"
+      content : "Hey - it’s been very very good - thank you.<br> I’ve shown my hairdresser & told him about it."
+      rating : "five" # rating star, one to five
+      
+          # testimonial item loop
+    - name : "Johann Beute"
+      image : "images/clients/johannbeute.png" # size 100px*100px
+      designation : "Filmmaker / Editor / Colorist / Photographer"
+      content : "It smells super good, like honey and limes,<br> not the chemical vibe most other brands have.<br> The wax is super lightweight in my hair, <br>and it never feels sticky or heavy when I use it."
+      rating : "five" # rating star, one to five
