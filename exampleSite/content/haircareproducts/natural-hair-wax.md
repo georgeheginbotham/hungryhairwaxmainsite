@@ -6,12 +6,12 @@ priceBefore: ""
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
-productID: "9"
+productID: "hairwax"
 images:
 - image: "/uploads/grapefruit-1.jpg"
 
 ---
-Style hair naturally with our 100% natural essential oil scented hair wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged hair.
+Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. Offeres a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
 
 **Ingredients:**
 
@@ -29,3 +29,8 @@ Style hair naturally with our 100% natural essential oil scented hair wax. Our p
 5. Improves hair strength & elasticity
 6. Naturally moisturizes hair & scalp
 7. Doesn't sweat-out/ lose hold.
+
+**Usage:**
+
+* Use a pea-sized amount to style hair
+* Each jar lasts 3-5 months 
