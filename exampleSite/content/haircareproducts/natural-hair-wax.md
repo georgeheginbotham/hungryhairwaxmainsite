@@ -1,5 +1,5 @@
 ---
-title: Natural Hair Wax
+title: hungryhairwax Natural Hair Wax
 description: 100% natural hair wax
 price: '180.00'
 priceBefore: "200"
