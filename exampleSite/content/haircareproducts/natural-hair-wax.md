@@ -11,7 +11,7 @@ images:
 - image: "/uploads/grapefruit-1.jpg"
 
 ---
-Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. Offeres a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
+Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. It offers a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
 
 **Ingredients:**
 
@@ -19,6 +19,11 @@ Style hair naturally with our 100% natural hair wax, scented with Soil Organic E
 * Organic Coconut Oil
 * Natural Kaolin Clay
 * Organic Citrus Essential Oil (Grapefruit, Orange, Lime, Lemon)
+
+**Usage:**
+
+* Use a pea-sized amount to style hair
+* Each jar lasts 3-5 months 
 
 **Benefits:**
 
@@ -30,7 +35,4 @@ Style hair naturally with our 100% natural hair wax, scented with Soil Organic E
 6. Naturally moisturizes hair & scalp
 7. Doesn't sweat-out/ lose hold.
 
-**Usage:**
 
-* Use a pea-sized amount to style hair
-* Each jar lasts 3-5 months 
