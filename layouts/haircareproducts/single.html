@@ -16,7 +16,8 @@
         </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
-        <h4 class="font-weight-medium">{{ .Title }}</h4>  
+        <h3 class="font-weight-medium"><b>{{ .Title }}</b></h3>
+        <h4>Select your preferred scent on checkout</h4>
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
