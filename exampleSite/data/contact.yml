@@ -1,0 +1,20 @@
+############################# contact info ################
+contact:
+  enable : true
+  # office
+  office:
+    title : "hungryhairwax Central Office"
+    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    # other information comes from "config.toml"
+
+  # opennig hour
+  opennigHour:
+    title : "Opening Hours"
+    dayTimeList:
+      - dayTime : "Monday: 9:00am – 5:00pm"
+      - dayTime : "Tuesday: 9:00am – 5:00pm"
+      - dayTime : "Wednesday: 9:00am – 5:00pm"
+      - dayTime : "Thursday: 9:00am – 5:00pm"
+      - dayTime : "Friday: 9:00am – 5:00pm"
+      - dayTime : "Saturday: 9:00 – 1:00pm"
+      - dayTime : "sunday: Closed"
