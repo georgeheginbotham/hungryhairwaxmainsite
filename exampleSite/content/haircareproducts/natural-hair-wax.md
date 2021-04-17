@@ -11,15 +11,17 @@ images:
 - image: "/uploads/grapefruit-1.jpg"
 
 ---
-Style hair naturally with our 100% natural fruit scented hair wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged hair.
-  
+Style hair naturally with our 100% natural essential oil scented hair wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged hair.
+
 **Ingredients:**
+
 * Raw Beeswax
 * Organic Coconut Oil
 * Natural Kaolin Clay
-* Organic Citrus Essential Oil
+* Organic Citrus Essential Oil (Grapefruit, Orange, Lime, Lemon)
 
 **Benefits:**
+
 1. Alcohol & chemical-free
 2. Promotes hair growth
 3. Repairs & softens damaged strands
