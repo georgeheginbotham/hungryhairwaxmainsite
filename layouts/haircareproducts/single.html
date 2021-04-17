@@ -16,8 +16,8 @@
         </div>
       </div>
       <div class="col-lg-5 offset-lg-1">
-        <h3 class="font-weight-medium"><b>{{ .Title }}</b></h3>
-        <h4>Select your preferred scent on checkout</h4>
+        <h3 class="font-weight-medium">{{ .Title }}</h3>
+        <p>Select your preferred scent on checkout</p>
         <div class="my-4">
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
@@ -30,7 +30,15 @@
             <div class="content">{{ .Content }}</div>
           </div>
                    </p>
-            <!-- testimonial -->
+        <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
+          data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
+           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
+            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Orange|Grapefruit[+10.00]|Lime[+7.00]|Lemon[+4.00]">
+          Add to cart
+        </button>
+      </div>
+  </div>
+     <!-- testimonial -->
 {{ if site.Data.naturalhairwax.reviews.enable }}
 {{ with site.Data.naturalhairwax.reviews }}
 <section class="section">
@@ -66,14 +74,5 @@
 {{ end }}
 {{ end }}
 <!-- /testimonial -->
-        <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
-          data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
-           data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
-            data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Orange|Grapefruit[+10.00]|Lime[+7.00]|Lemon[+4.00]">
-          Add to cart
-        </button>
-      </div>
-  </div>
-    
 </section>
 {{ end }}
