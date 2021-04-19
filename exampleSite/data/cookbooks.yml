@@ -1,38 +1,6 @@
-######################## Products #############################
-products:
-  enable : true
-  #title : "Products List"
-  # product item comes from "content/products"
-  
-  ######################## Ingredients #######################
-material:
-  enable : true
-  title : "Our Formula"
-  subtitle : "Our hair wax is made with 100% natural ingredients<br>"
-  materialItem:
-    # material item loop
-    - title : "Coconut Oil"
-      image : "images/material/coconut-oil.png"
-      content : "Our hair can absorb the fatty acids in coconut oil, helping it prevent protein loss and become soft"
-      
-    # material item loop
-    - title : "Kaolin Clay"
-      image : "images/material/kaolin-clay.png"
-      content : "Kaolin clay is rich in silica which strengthens hair and prevents thinning"
-      
-    # material item loop
-    - title : "Beeswax"
-      image : "images/material/beeswax.png"
-      content : "Beeswax locks in our hair's natural moisture and provides a thin layer of UV protection"
-      
-    # material item loop
-    - title : "Citrus Essential Oils"
-      image : "images/material/citrus-essential-oils.png"
-      content : "Citrus essential oils smell amazing and are excellent remedies for fighting off bacteria. "
 
-  
   ########################## Reviews ########################
-testimonialcookbook:
+bfsreviews:
   enable : true
   title : "Reviews"
   testimonialItem:
