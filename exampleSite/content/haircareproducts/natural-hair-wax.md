@@ -2,13 +2,16 @@
 title: Natural Hair Wax
 description: 100% natural hair wax
 price: '152.00'
-priceBefore: ""
+priceBefore: ''
 shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
   wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
   hair.
-productID: "hairwax"
+productID: hairwax
 images:
-- image: "/uploads/grapefruit-1.jpg"
+- image: "/uploads/lime.jpg"
+- image: "/uploads/lemon.jpg"
+- image: "/uploads/orange.jpg"
+- image: "/uploads/grapefruit.jpg"
 
 ---
 Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. It offers a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
@@ -34,5 +37,3 @@ Style hair naturally with our 100% natural hair wax, scented with Soil Organic E
 5. Improves hair strength & elasticity
 6. Naturally moisturizes hair & scalp
 7. Doesn't sweat-out/ lose hold.
-
-
