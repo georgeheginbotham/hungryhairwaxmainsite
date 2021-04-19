@@ -120,4 +120,4 @@ currencySymbol = "R"
 
   # Contact Form
   [params.contact]
-  formAction = "#" # contact form works with formspree.io
+  formAction = "https://formspree.io/f/xyylzpbk" # contact form works with formspree.io
