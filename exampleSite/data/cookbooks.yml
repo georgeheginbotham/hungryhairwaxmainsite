@@ -3,7 +3,7 @@
 bfsreviews:
   enable : true
   title : "Reviews"
-  testimonialItem:
+ reviewItem:
     # testimonial item loop
     - name : "CddsadsaX Boi"
       image : "images/clients/charlixboi.png" # size 100px*100px
