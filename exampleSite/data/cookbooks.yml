@@ -32,12 +32,12 @@ material:
 
   
   ########################## Reviews ########################
-testimonial:
+testimonialcookbook:
   enable : true
   title : "Reviews"
   testimonialItem:
     # testimonial item loop
-    - name : "Charli X Boi"
+    - name : "CddsadsaX Boi"
       image : "images/clients/charlixboi.png" # size 100px*100px
       designation : "Male beauty influencer"
       content : "I really like it on my hair.<br> I have thin hair but enjoy a natural finish<br> so I’m happy with it for me."
