@@ -1,13 +1,13 @@
 <footer class="sectionfooter">
   <div class="container">
     <div class="row border-bottom pb-0 justify-content-between">
-      <div class="col-12 text-center section-sm pt-4">
+      <div class="col-12 text-center section-sm pt-1">
         <a href="{{ site.BaseURL }}"><img src="{{ site.Params.logo | absURL }}" class="img-fluid"
             alt="{{ site.Title }}"></a>
       </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-3 col-sm-6 pt-2 pb-3">
         <h5 class="font-weight-medium mb-4">Important Links</h5>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled mb-3">
           {{ range site.Menus.footer }}
           <li class="mb-3"><a class="text-color" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
