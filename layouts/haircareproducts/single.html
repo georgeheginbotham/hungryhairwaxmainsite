@@ -42,10 +42,16 @@
       
       </div>
   </div>
+	  
 </section>
+	{{ if site.Data.naturalhairwax.banner.enable }}
+{{ with site.Data.naturalhairwax.banner }}
+	<section class="section pt-0">
 			    	   <div class="col-lg-7 col-md-6 order-1 order-lg-2 centerbanner">
-  <img src="images/coverimage.jpg" class="img-fluid container centerbanner" alt="">
+	 <img src="{{ .image | absURL }}" class="img-fluid container centerbanner" alt="">
 </div> 
+		</section>
+
   
        <!-- testimonial -->
 {{ if site.Data.naturalhairwax.reviews.enable }}
