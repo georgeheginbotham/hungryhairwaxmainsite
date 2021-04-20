@@ -79,7 +79,7 @@ disqusShortname = ""
 
 [params]
 logo = "images/logo.png"
-home = ""
+home = "Home"
 # Meta data
 description = "hungryhairwax home"
 author = "George Anthony Heginbotham"
