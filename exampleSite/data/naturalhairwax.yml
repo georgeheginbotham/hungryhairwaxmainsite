@@ -37,3 +37,9 @@ reviews:
       designation : "Filmmaker / Editor / Colorist / Photographer"
       content : "It smells super good, like honey and limes,<br> not the chemical vibe most other brands have.<br> The wax is super lightweight in my hair, <br>and it never feels sticky or heavy when I use it."
       rating : "five" # rating star, one to five
+
+banner:
+  enable : true
+  title : "Get The Hair You Deserve"
+  content : "natural hair wax and hair healthy recipes"
+  image : "images/about.jpg"
