@@ -1,11 +1,9 @@
 ---
-title: Natural Hair Wax
-description: 100% natural hair wax
+title: 100% Natural Hair Wax
+description: Hair wax made from 100% natural ingredients
 price: '152.00'
 priceBefore: ''
-shortDescription: Style hair naturally with our 100% natural grapefruit scented hair
-  wax. Our product provides a natural hold & subtle shine. Ideal for dry or damaged
-  hair.
+shortDescription: Hair wax made from 100% natural ingredients
 productID: hairwax
 images:
 - image: "/uploads/lime.jpg"
@@ -14,26 +12,33 @@ images:
 - image: "/uploads/grapefruit.jpg"
 
 ---
-Style hair naturally with our 100% natural hair wax, scented with Soil Organic Essential Oil's. It offers a natural hold & subtle shine. Subtitle for all hair lengths. Perfect for dry or damaged hair.
+Style hair with our 100% natural hair wax
+
+**Details:**
+
+* Offers a natural hold & subtle shine
+* Subtitle for all hair lengths
+* Ideal for dry or damaged hair
 
 **Usage:**
 
 * Use a pea-sized amount to style hair
-* Each jar lasts 3-5 months 
+* Each jar is 50ml which lasts 3-5 months
 
 **Ingredients:**
 
-* Raw Beeswax
-* Organic Coconut Oil
-* Natural Kaolin Clay
-* Organic Citrus Essential Oil (Grapefruit, Orange, Lime, Lemon)
+* Raw beeswax
+* Organic coconut oil
+* Natural kaolin clay
+* Organic citrus essential oil
 
 **Benefits:**
 
 1. Alcohol & chemical-free
-2. Promotes hair growth
-3. Repairs & softens damaged strands
-4. Balances hairs natural PH
-5. Improves hair strength & elasticity
-6. Naturally moisturizes hair & scalp
-7. Doesn't sweat-out/ lose hold.
+2. Stimulates hair growth
+3. Moisturizes the hair & scalp
+4. High in antioxidants
+5. Sweat-resistant 
+6. Repairs damaged strands
+7. Improves hair strength & elasticity
+8. Naturally fights bacteria
