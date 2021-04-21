@@ -1,9 +1,9 @@
 ---
 title: Hair Health Benefits Of Beeswax
 date: 2021-02-03T05:22:16+00:00
-description: Here our top 5 benefits of beeswax for hair
+description: Hair Health Benefits Of Beeswax
 image: images/blog/post-2.jpg
-author: John Doe
+author: hungryhairwax
 
 ---
 # How does it benefit your hair?
