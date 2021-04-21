@@ -81,7 +81,7 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "hungryhairwax home"
+description = "hungryhairwax natural hair wax for men"
 author = "George Anthony Heginbotham"
 # Contact Information
 email = "hungryhairwax@gmail.com"
@@ -100,23 +100,23 @@ currencySymbol = "R"
   # Social Site
   [[params.social]]
   icon = "ti-facebook"
-  link = "#"
+  link = "https://www.facebook.com/hungryhairwax"
 
   [[params.social]]
   icon = "ti-twitter-alt"
-  link = "#"
+  link = "https://twitter.com/hungryhairwax"
 
   [[params.social]]
   icon = "ti-youtube"
-  link = "#"
+  link = "https://www.youtube.com/channel/UC10LGDWeIz84EkhsUajIprg"
 
   [[params.social]]
   icon = "ti-instagram"
-  link = "#"
+  link = "https://www.instagram.com/hungryhairwax/"
 
   [[params.social]]
   icon = "ti-pinterest"
-  link = "#"
+  link = "https://za.pinterest.com/hungryhairwax/_saved/"
 
   # Contact Form
   [params.contact]
