@@ -14,7 +14,7 @@
       </div>
       <div class="col-lg-5 offset-lg-1">
         <h3 class="font-weight-medium">{{ .Title }}</h3>      
-        <p>Select your preferred scent on checkout</p>
+        <p><b>Select your preferred scent on checkout</b></p>
 	        <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
           data-item-name= "hungryhairwax {{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}" {{ end }}
            data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
