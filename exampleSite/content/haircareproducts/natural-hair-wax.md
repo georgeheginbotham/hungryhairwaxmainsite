@@ -12,18 +12,12 @@ images:
 - image: "/uploads/grapefruit.jpg"
 
 ---
-Style hair with our 100% natural hair wax
+Style hair with our 100% natural hair wax. Ideal for short to medium hair lengths
 
 **Details:**
 
-* Offers a natural hold & subtle shine
-* Subtitle for all hair lengths
-* Ideal for dry or damaged hair
-
-**Usage:**
-
 * Use a pea-sized amount to style hair
-* Each jar is 50ml which lasts 3-5 months
+* 1 jar lasts 3-5 months
 
 **Ingredients:**
 
@@ -38,7 +32,7 @@ Style hair with our 100% natural hair wax
 2. Stimulates hair growth
 3. Moisturizes the hair & scalp
 4. High in antioxidants
-5. Sweat-resistant 
+5. Sweat-resistant
 6. Repairs damaged strands
 7. Improves hair strength & elasticity
 8. Naturally fights bacteria
