@@ -36,4 +36,4 @@ Style hair with our 100% natural hair wax. Ideal for short to medium hair length
 6. Repairs damaged strands
 7. Improves hair strength & elasticity
 8. Naturally fights off bacteria
-9. Protects hair from sunlight
+9. Protects hair from prolonged sunlight exposure 
