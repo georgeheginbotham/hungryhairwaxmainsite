@@ -3,7 +3,7 @@
 <!-- products -->
 {{ if site.Data.homepage.haircareproducts.enable }}
 <section class="section pb-0 pt-0 centerbanner">
-  <div class="container">
+  <div class="container centerbanner">
     <div class="row">
       <div class="col-12 text-center">
         {{ with site.Data.homepage.haircareproducts }}
@@ -15,7 +15,7 @@
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top centerbanner">
             {{ end }}
           </a>
           <div class="card-body">
