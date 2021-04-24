@@ -21,10 +21,10 @@ Style hair with our 100% natural hair wax. Ideal for short to medium hair length
 
 **Ingredients:**
 
-* Raw beeswax
-* Organic coconut oil
-* Natural kaolin clay
-* Organic citrus essential oil
+* Raw Beeswax
+* Organic Coconut Oil
+* Natural Kaolin Clay
+* Organic Citrus Essential Oil
 
 **Benefits:**
 
