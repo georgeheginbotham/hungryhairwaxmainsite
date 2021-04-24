@@ -25,16 +25,16 @@
 <!-- /banner -->
 
 <!-- products -->
-{{ if site.Data.homepage.products.enable }}
+{{ if site.Data.homepage.haircareproducts.enable }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        {{ with site.Data.homepage.products }}
+        {{ with site.Data.homepage.haircareproducts }}
         <h2>{{ .title | markdownify }}</h2>
         {{ end }}
       </div>
-      {{ range first 6 (where site.RegularPages "Type" "products") }}
+      {{ range first 4 (where site.RegularPages "Type" "haircareproducts") }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
