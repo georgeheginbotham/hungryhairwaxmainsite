@@ -1,20 +1,5 @@
 {{ define "main" }}
 
-<!-- banner -->
-{{ if site.Data.homepage.banner.enable }}
-{{ with site.Data.homepage.banner }}
-<section class="section-sm centerbanner pb-2 pt-3">
-		    	   <div class="col-lg-7 col-md-6 order-1 order-lg-2 centerbanner">
-  <img src="images/coverimage.jpg" class="img-fluid container centerbanner" alt="">
-</div> 
-  <div class="container centerbanner pt-2">
-	          <h4>Embrace your natural look</h4>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /banner -->
-
 <!-- products -->
 {{ if site.Data.homepage.haircareproducts.enable }}
 <section class="section pb-0 centerbanner">
@@ -56,5 +41,20 @@
 </section>
 {{ end }}
 <!-- /products -->
+
+<!-- banner -->
+{{ if site.Data.homepage.banner.enable }}
+{{ with site.Data.homepage.banner }}
+<section class="section-sm centerbanner pb-2 pt-3">
+		    	   <div class="col-lg-7 col-md-6 order-1 order-lg-2 centerbanner">
+  <img src="images/coverimage.jpg" class="img-fluid container centerbanner" alt="">
+</div> 
+  <div class="container centerbanner pt-2">
+	          <h4>Embrace your natural look</h4>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /banner -->
 
 {{ end }}
