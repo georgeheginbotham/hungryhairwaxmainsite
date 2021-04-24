@@ -30,7 +30,7 @@ Style hair with our 100% natural hair wax. Ideal for short to medium hair length
 
 1. Alcohol & chemical-free
 2. Stimulates hair growth
-3. Moisturizes the hair & scalp
+3. Moisturizes hair & scalp
 4. High in antioxidants
 5. Sweat-resistant hold
 6. Repairs damaged strands
