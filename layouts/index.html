@@ -9,15 +9,8 @@
 </div> 
   <div class="container centerbanner pt-2">
 	          <h4>Embrace your natural look</h4>
-    <div class="row justify-content-between centerbanner">
-      <div class="container centerbanner">
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="https://hungryhairwax.co.za/haircareproducts/natural-hair-wax/#/cart" class="btn centerbanner">Buy Now</a>
         {{ end }}
         {{ end }}
-      </div>
-    </div>
   </div>
 </section>
 {{ end }}
@@ -35,7 +28,7 @@
         {{ end }}
       </div>
       {{ range first 1 (where site.RegularPages "Type" "haircareproducts") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="col-lg-4 col-sm-6 mb-4 container centerbanner">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
