@@ -30,11 +30,10 @@ disqusShortname = ""
 [menu]
 
   [[menu.main]]
-  name = "Hair Wax"
+  name = "Product"
   URL = "haircareproducts/natural-hair-wax"
   weight = 1
   
-
   [[menu.main]]
   name = "Blog"
   URL = "blog"
@@ -47,7 +46,7 @@ disqusShortname = ""
 
   ############# footer menu #############
   [[menu.footer]]
-  name = "Hair Wax"
+  name = "Product"
   URL = "haircareproducts/natural-hair-wax"
   weight = 1
   
