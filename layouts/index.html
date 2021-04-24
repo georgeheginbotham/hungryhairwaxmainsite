@@ -29,7 +29,8 @@
             </div>
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
+              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}" 
+               data-item-custom1-name="Please select your preferred scent" data-item-custom1-options="Orange|Grapefruit[+10.00]|Lime[+7.00]|Lemon[+4.00]">
               Add to cart
             </button>
           </div>
