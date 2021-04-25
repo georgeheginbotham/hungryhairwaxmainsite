@@ -33,7 +33,7 @@ Style hair with our 100% natural hair wax. Ideal for short to medium hair length
 3. Moisturizes hair & scalp
 4. High in antioxidants
 5. Sweat-resistant hold
-6. Repairs damaged strands
+6. Prevents scalp & hairline acne
 7. Improves hair strength & elasticity
 8. Naturally fights off bacteria
 9. Protects hair from prolonged sunlight exposure
