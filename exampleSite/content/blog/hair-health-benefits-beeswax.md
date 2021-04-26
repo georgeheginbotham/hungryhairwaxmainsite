@@ -23,7 +23,7 @@ Its ability to seal strands makes beeswax a good way to hide split ends
 
 **Promote hair growth**
 
-Beeswax can also be used to promote hair growth. A 2016 study found that a hair wax containing beeswax significantly increased hair length after daily use for 30 days. However, the formula did include other ingredients, so it’s hard to say if beeswax was the cause.
+Beeswax can also be used to promote hair growth. A 2016 study found that a hair wax containing beeswax significantly increased hair length after daily use for 30 days.
 
 **Soothe scalp conditions**
 
