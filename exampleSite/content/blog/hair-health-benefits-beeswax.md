@@ -15,7 +15,7 @@ One of the biggest benefits is moisture. The vitamin A content in beeswax helps 
 
 **Smooth and straighten**
 
-People who find their hair difficult to manage also use beeswax to smooth flyaway strands, keep styles intact, and straighten their hair. It’s particularly useful for natural hair as well as twisted and braided styles.
+People who find their hair difficult to manage also use beeswax to smooth flyaway strands, keep styles intact, and straighten their hair.
 
 **Seal strands**
 
