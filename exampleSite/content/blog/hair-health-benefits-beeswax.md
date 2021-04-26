@@ -19,7 +19,7 @@ People who find their hair difficult to manage also use beeswax to smooth flyawa
 
 **Seal strands**
 
-Its ability to seal strands makes beeswax a good way to hide split ends
+Its ability to seal strands makes beeswax a good way to hide split ends.
 
 **Promote hair growth**
 
