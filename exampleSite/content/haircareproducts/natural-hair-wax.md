@@ -14,11 +14,6 @@ images:
 ---
 Style hair with our 100% natural hair wax. Ideal for short to medium hair lengths
 
-**Details:**
-
-* Use a pea-sized amount to style hair
-* 1 jar lasts 3-5 months
-
 **Ingredients:**
 
 * Raw Beeswax
