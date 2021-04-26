@@ -7,7 +7,7 @@ author: hungryhairwax
 Summary: Here our top 5 benefits of beeswax for hair
 
 ---
-# How does it benefit your hair?
+# How does beeswax benefit your hair?
 
 **Moisturize**
 
