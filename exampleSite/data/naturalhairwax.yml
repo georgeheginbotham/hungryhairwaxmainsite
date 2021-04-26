@@ -14,7 +14,7 @@ reviews:
     - name : "Steve Larter"
       image : "images/clients/stevelarter.png" # size 100px*100px
       designation : "Actor, voice artist, improviser, stock market trader"
-      content : " I'm really impressed<br> it works really well and smells great too. I'll definitely be ordering more when this jar is done!<br>Thank for a great product!"
+      content : " I'm really impressed<br> it works really well and smells great too. I'll definitely be ordering more when this jar is done!<br> Thank for a great product!"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
