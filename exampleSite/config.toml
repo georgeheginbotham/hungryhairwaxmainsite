@@ -93,21 +93,11 @@ currencySymbol = "R"
   icon = "ti-facebook"
   link = "https://www.facebook.com/hungryhairwax"
 
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  link = "https://twitter.com/hungryhairwax"
-
-  [[params.social]]
-  icon = "ti-youtube"
-  link = "https://www.youtube.com/channel/UC10LGDWeIz84EkhsUajIprg"
 
   [[params.social]]
   icon = "ti-instagram"
   link = "https://www.instagram.com/hungryhairwax/"
 
-  [[params.social]]
-  icon = "ti-pinterest"
-  link = "https://za.pinterest.com/hungryhairwax/_saved/"
 
   # Contact Form
   [params.contact]
